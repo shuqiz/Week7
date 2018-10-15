@@ -16,7 +16,7 @@ To recreate: the default username and password are both admin, entering admin123
 
 2. XSS Attack
 
-Cookie associated with the current document can be easily hacked by inserting script in a post.
+Cookie associated with the current document can be easily hacked by inserting script on a post.
 
 To recreate: type <script>alert(document.cookie);</script> in your post
 
