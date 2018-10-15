@@ -23,3 +23,10 @@ To recreate: type <script>alert(document.cookie);</script> in your post
 ![](xss_script.gif)
 
 
+
+3. Enumerate username and password
+
+Username and password are easy to find using wpscan. 
+
+To recreate: type "wpscan -u 192.168.33.10 -e u vp" on Kali terminal
+![](wpscan.gif)
