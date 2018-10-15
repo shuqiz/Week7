@@ -1,5 +1,7 @@
 # Week7
 
+Wordpress version: 4.2
+
 1. User Enumeration Attack
 
 Wordpress showed "Invalid username" when a wrong username was entered, but it showed "The password you entered for the username admin is incorrect" which indicates admin is the corret username to hack.
@@ -8,4 +10,16 @@ To recreate: the default username and password are both admin, entering admin123
 
 
 ![](username.gif)
+
+
+
+
+2. XSS Attack
+
+Cookie associated with the current document can be easily hacked by inserting script in a post.
+
+To recreate: type <script>alert(document.cookie);</script> in your post
+
+![](xss_script.gif)
+
 
