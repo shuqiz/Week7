@@ -2,7 +2,10 @@
 
 1. User Enumeration Attack
 
-Wordpress showed "Invalid username" when a wrong username was entered, but it showed "The password you entered for the username admin is incorrent" which indicates admin is the corret username to hack.
+Wordpress showed "Invalid username" when a wrong username was entered, but it showed "The password you entered for the username admin is incorrect" which indicates admin is the corret username to hack.
+
+To recreate: the default username and password are both admin, entering admin123 in username and something in password will give you "Invalid username" error; entering admin in username and 123 for password will give you "The password is incorrect" error.
+
 
 ![](username.gif)
 
