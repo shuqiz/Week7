@@ -24,9 +24,11 @@ To recreate: type <script>alert(document.cookie);</script> in your post
 
 
 
+
+
 3. Enumerate username and password
 
-Username and password are easy to find using wpscan. 
+Username and password are easy to find using wpscan. As shown below, the default username is shown as admin, and its password is also admin.
 
 To recreate: type "wpscan -u 192.168.33.10 -e u vp" on Kali terminal
 ![](wpscan.gif)
